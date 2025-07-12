@@ -6,9 +6,7 @@ use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Frontend\ProjectsController;
 use App\Http\Controllers\Frontend\ResumeController;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+
 Route::get('/', [HomeController::class, 'index'])->name("home");
 Route::get('/resume', [ResumeController::class, 'index'])->name("resume");
 Route::get('/projects', [ProjectsController::class, 'index'])->name("projects");

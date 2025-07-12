@@ -23,7 +23,7 @@ class ContactController extends Controller
             'message' => 'required|string',
         ]);
         Log::info('Contact Form Submission:', $validated);
-        session()->flash('success', 'Your message has been submitted successfully!');
+        session()->flash('success', 'Your form has been submitted successfully!');
         return redirect()->route('confirmation')->with('form_data', $validated);
     }
     public function confirmation()

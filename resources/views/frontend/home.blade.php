@@ -1,12 +1,12 @@
 @extends('frontend.layouts.master')
 @section('title', $page_tile)
 @section('main-content')
-    <!-- Header-->
+
     <header class="py-5">
         <div class="container px-5 pb-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-xxl-5">
-                    <!-- Header text content-->
+
                     <div class="text-center text-xxl-start">
                         <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
                             <div class="text-uppercase">Design &middot; Development &middot; Marketing</div>
@@ -23,15 +23,14 @@
                     </div>
                 </div>
                 <div class="col-xxl-7">
-                    <!-- Header profile picture-->
+
                     <div class="d-flex justify-content-center mt-5 mt-xxl-0">
                         <div class="profile bg-gradient-primary-to-secondary">
-                            <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
-                            <!-- Watch a tutorial on how to do this on YouTube (link)-->
+
                             <img class="profile-img" style="width:90%; height: auto; margin-bottom: 25px;"
                                 src="{{ asset('frontend_assets/assets/Sharif Patowary.png') }}" alt="..." />
                             <div class="dots-1">
-                                <!-- SVG Dots-->
+
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4"
                                     style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
@@ -98,10 +97,10 @@
                                         </path>
                                     </g>
                                 </svg>
-                                <!-- END of SVG dots-->
+
                             </div>
                             <div class="dots-2">
-                                <!-- SVG Dots-->
+
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4"
                                     style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
@@ -168,10 +167,10 @@
                                         </path>
                                     </g>
                                 </svg>
-                                <!-- END of SVG dots-->
+
                             </div>
                             <div class="dots-3">
-                                <!-- SVG Dots-->
+
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4"
                                     style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
@@ -238,10 +237,10 @@
                                         </path>
                                     </g>
                                 </svg>
-                                <!-- END of SVG dots-->
+
                             </div>
                             <div class="dots-4">
-                                <!-- SVG Dots-->
+
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4"
                                     style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
@@ -308,7 +307,7 @@
                                         </path>
                                     </g>
                                 </svg>
-                                <!-- END of SVG dots-->
+
                             </div>
                         </div>
                     </div>
@@ -316,7 +315,7 @@
             </div>
         </div>
     </header>
-    <!-- About Section-->
+
     <section class="bg-light py-5">
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
